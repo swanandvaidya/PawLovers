@@ -34,10 +34,14 @@ android {
 dependencies {
 
     implementation SupportLibs.coreKtx
+    implementation SupportLibs.activityCompose
     implementation SupportLibs.appcompat
     implementation SupportLibs.material
     implementation SupportLibs.constraintLayout
     implementation SupportLibs.splashScreen
+    implementation Libs.viewModel
+    implementation Libs.coroutine
+    implementation Libs.lifecycle
 
 
     testImplementation TestingLibs.junit
