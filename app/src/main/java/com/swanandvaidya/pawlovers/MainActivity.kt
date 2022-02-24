@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         installSplashScreen().apply {
             setKeepOnScreenCondition{
-                viewModel.isLoading.value
+                viewModel.isLoading.value!!
             }
         }
         setContentView(R.layout.activity_main)
