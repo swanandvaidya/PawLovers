@@ -1,10 +1,10 @@
-package com.swanandvaidya.pawlovers
+package com.swanandvaidya.pawlovers.ui.splashscreen
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import com.swanandvaidya.pawlovers.viewmodel.SplashScreenViewModel
+import com.swanandvaidya.pawlovers.R
 
 class MainActivity : AppCompatActivity() {
 

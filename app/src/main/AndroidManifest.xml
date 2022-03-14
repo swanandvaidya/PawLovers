@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PawLovers">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.splashscreen.MainActivity"
             android:exported="true"
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
