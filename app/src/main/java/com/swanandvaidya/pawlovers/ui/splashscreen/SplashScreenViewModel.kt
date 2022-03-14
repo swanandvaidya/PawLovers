@@ -1,4 +1,4 @@
-package com.swanandvaidya.pawlovers.viewmodel
+package com.swanandvaidya.pawlovers.ui.splashscreen
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
